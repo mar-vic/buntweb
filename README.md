@@ -1,2 +1,2 @@
 # buntweb
-Website of the bunt community center
+kpBunt community center website
