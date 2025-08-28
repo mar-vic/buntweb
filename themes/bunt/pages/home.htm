@@ -1,0 +1,30 @@
+title = "Home"
+url = "/"
+layout = "default"
+==
+<div class="container intro">
+    {% partial "home/intro" %}
+</div>
+
+<div class="container">
+
+    <div class="page-header">
+        <h2>Aktuálne</h2>
+    </div>
+
+    <h3>Program</h3>
+    <div class="teaser-container">
+        {% partial "home/event-teaser" %}
+        {% partial "home/event-teaser" %}
+        {% partial "home/event-teaser" %}
+    </div>
+
+    <h3>Články</h3>
+
+    <div class="teaser-container">
+        {% partial "home/article-teaser" %}
+        {% partial "home/article-teaser" %}
+        {% partial "home/article-teaser" %}
+    </div>
+
+</div>
