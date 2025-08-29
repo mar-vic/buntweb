@@ -1,4 +1,4 @@
-name: SSH Deploy To Prod
+name: SSH Deploy To Dev
 
 on: workflow_dispatch
 
